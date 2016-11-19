@@ -77,4 +77,41 @@ main {
 .home-hero-text {
   text-align: center;
   color: #fff;
+  font-weight: 700;
+  line-height: 65px;
 }
+
+#center-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#navbar-spacing {
+  padding: 0 15px;
+}
+
+.nav-links {
+  font-size: 1.15rem;
+  padding: 0 20px;
+  letter-spacing: 1px;
+}
+
+.home-headlines {
+  font-weight: 700;
+}
+
+.home-body h4 {
+  color: #212121;
+}
+
+.home-body p {
+  color: #757575;
+}
+
+@media only screen and (min-width: 992px) {
+  .home-copy {
+    font-size: 20px;
+  }
+}
+
