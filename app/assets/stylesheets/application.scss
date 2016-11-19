@@ -66,3 +66,15 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+.background-gradient {
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  )
+}
+
+.home-hero-text {
+  text-align: center;
+  color: #fff;
+}

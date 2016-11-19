@@ -31,11 +31,8 @@
       </nav>
     </header>
     <main>
-      <div class="container">
 
         <%= yield %>
-
-      </div>
     </main>
     <footer class="page-footer">
       <div class="row">
@@ -54,10 +51,8 @@
         </div>
       </div>
       <div class="footer-copyright">
-        <div class="container">
-        © 2014 Copyright Text
+        © <%= Time.now.year %> IncreaseYourCovers.com
         <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-        </div>
       </div>
     </footer>
   </body>

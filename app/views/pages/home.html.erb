@@ -1,3 +1,12 @@
-<h1>Home</h1>
+<div class="parallax-container background-gradient">
+      <div class="parallax"><%= image_tag 'dining-room.jpg' %></div>
+      <h3 class="home-hero-text">This is some text</h3>
+    </div>
 <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
 <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.parallax').parallax();
+  });
+</script>
