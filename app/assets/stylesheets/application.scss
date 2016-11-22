@@ -127,6 +127,15 @@ main {
   font-size: 16px;
 }
 
+#email-quote {
+  font-weight: 700;
+}
+
+.link-accent {
+  color: #536DFE;
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 992px) {
   .home-copy {
     font-size: 20px;
