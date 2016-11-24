@@ -136,6 +136,16 @@ main {
   text-decoration: underline;
 }
 
+.offer-icon {
+  font-size: 1.5rem !important;
+  width: 30px;
+}
+
+.check-list {
+  display: inline-flex;
+  vertical-align: middle;
+}
+
 @media only screen and (min-width: 992px) {
   .home-copy {
     font-size: 20px;
