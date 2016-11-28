@@ -19,8 +19,16 @@
  // @import "materialize/components/prefixer";
  @import "materialize/components/mixins";
  @import "materialize/components/color";
- $primary-color: color("green", "base") !default;
- $secondary-color: color("indigo", "accent-2") !default;
+ $primary-color-dark:   #00796B !default;
+ $primary-color:        #009688 !default;
+ $primary-color-light:  #B2DFDB !default;
+ $primary-color-text:   #FFFFFF !default;
+ $accent-color:         #448AFF !default;
+ $primary-text-color:   #212121 !default;
+ $secondary-text-color: #757575 !default;
+ $divider-color:        #BDBDBD !default;
+ // $primary-color: color("green", "base") !default;
+ // $secondary-color: color("indigo", "accent-2") !default;
 
  // Variables;
  @import "materialize/components/variables";
@@ -34,6 +42,7 @@
  @import "materialize/components/grid";
  @import "materialize/components/navbar";
  @import "materialize/components/roboto";
+ @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina');
  @import "materialize/components/typography";
  @import "materialize/components/cards";
  @import "materialize/components/toast";
@@ -111,7 +120,7 @@ main {
 
 .home-body .material-icons {
   font-size: 5rem;
-  color: #536DFE;
+  color: #448AFF;
 }
 
 .services-copy {
@@ -148,9 +157,26 @@ main {
 }
 
 .buy-btn {
-  background-color: #D32F2F; 
+  background-color: #FF5252;
 }
 
+.buy-btn:hover {
+  background-color: #ff8585;
+}
+
+i.material-icons.logo {
+  font-size: 3rem;
+  margin-right: 0 !important;
+}
+
+.brand-name {
+  font-family: 'Baloo Bhaina', cursive;
+}
+
+nav .brand-logo {
+  font-size: 3.3rem;
+  padding: 3px;
+}
 @media only screen and (min-width: 992px) {
   .home-copy {
     font-size: 20px;
