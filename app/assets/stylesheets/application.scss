@@ -90,7 +90,7 @@ main {
   line-height: 65px;
 }
 
-#center-text {
+.center-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,7 +107,7 @@ main {
 }
 
 .home-headlines {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .home-body h4 {
@@ -121,6 +121,10 @@ main {
 .home-body .material-icons {
   font-size: 5rem;
   color: #448AFF;
+}
+
+#home-parallax {
+  margin-bottom: 50px;
 }
 
 .services-copy {
@@ -176,6 +180,17 @@ i.material-icons.logo {
 nav .brand-logo {
   font-size: 2.5rem;
   padding: 3px;
+}
+
+.services-divider {
+  background-color: #009688;
+  height: 170px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.services-divider h4 {
+  color: #fff;
 }
 
 @media only screen and (min-width: 992px) {
