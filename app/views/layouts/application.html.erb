@@ -16,8 +16,8 @@
           <a href="#!" class="brand-logo brand-name"><i class="material-icons logo">track_changes</i>CoverCentric</a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="sass.html" class="nav-links">Home</a></li>
-            <li><a href="badges.html" class="nav-links">Services</a></li>
+            <li><%= link_to "Home", root_path, class: "nav-links" %></li>
+            <li><%= link_to "Pricing", pricing_path, class: "nav-links" %></li>
             <li><a href="collapsible.html" class="nav-links">Contact</a></li>
             <li><a href="mobile.html" class="nav-links">Blog</a></li>
           </ul>
@@ -53,5 +53,19 @@
         © <%= Time.now.year %> CoverCentric.com
       </div>
     </footer>
+    <!-- Drip -->
+    <!-- <script type="text/javascript">
+      var _dcq = _dcq || [];
+      var _dcs = _dcs || {};
+      _dcs.account = '6295414';
+
+      (function() {
+        var dc = document.createElement('script');
+        dc.type = 'text/javascript'; dc.async = true;
+        dc.src = '//tag.getdrip.com/6295414.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(dc, s);
+      })();
+    </script> -->
   </body>
 </html>

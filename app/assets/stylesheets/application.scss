@@ -106,19 +106,19 @@ main {
   letter-spacing: 1px;
 }
 
-.home-headlines {
+.body-headlines {
   font-weight: 500;
 }
 
-.home-body h4 {
+.body-copy h4 {
   color: #212121;
 }
 
-.home-body p {
+.body-copy p {
   color: #757575;
 }
 
-.home-body .material-icons {
+.body-copy .material-icons {
   font-size: 5rem;
   color: #448AFF;
 }
@@ -198,7 +198,7 @@ nav .brand-logo {
 }
 
 @media only screen and (min-width: 992px) {
-  .home-copy {
+  .body-copy {
     font-size: 20px;
   }
 }
