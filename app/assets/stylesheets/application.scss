@@ -64,7 +64,7 @@
  @import "materialize/components/date_picker/default";
  @import "materialize/components/date_picker/default.date";
  @import "materialize/components/date_picker/default.time";
-
+ @import "font-awesome";
 
 body {
   display: flex;
@@ -218,6 +218,12 @@ nav .brand-logo {
   .body-copy {
     font-size: 20px;
   }
+}
+
+footer .fa {
+  color: #fff;
+  font-size: 30px;
+  padding: 0 6px;
 }
 
 //****** Pricing Styles ******//
