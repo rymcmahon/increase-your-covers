@@ -228,9 +228,29 @@ footer .fa {
 
 .footer-links {
   display: inline;
-  font-size: 18px;
-  padding: 0 5px;
+  font-size: 14px;
+  padding: 0 2em;
 }
+
+#footer-social-icons {
+  margin-top: 15px;
+}
+
+.social-links {
+  display: inline;
+  font-size: 14px;
+  padding: 0 1em;
+}
+
+.page-footer h4, h6 {
+  margin: 0;
+}
+
+.page-footer ul {
+  margin: 5px 0;
+}
+
+
 //****** Pricing Styles ******//
 
 .card-content li {
