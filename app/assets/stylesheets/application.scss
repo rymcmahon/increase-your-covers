@@ -233,7 +233,7 @@ footer .fa {
 }
 
 #footer-social-icons {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .social-links {
@@ -255,4 +255,19 @@ footer .fa {
 
 .card-content li {
   font-size: 14px;
+}
+
+
+//****** Blog Styles ******//
+
+.destroy-btn {
+  background-color: #FF5252;
+}
+
+.destroy-btn:hover {
+  background-color: #ff8585;
+}
+
+.destroy-article-btn {
+  padding: 0 0.75rem;
 }
