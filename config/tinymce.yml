@@ -1,0 +1,5 @@
+toolbar:
+  - undo redo | image | link
+plugins:
+  - image
+  - link
