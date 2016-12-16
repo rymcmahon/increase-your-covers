@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col s12 m10">
       <h3><%= @article.title %></h3>
-      <p><%= @article.body %></p>
+      <p><%= @article.body.html_safe %></p>
     </div>
   </div>
 </div>
