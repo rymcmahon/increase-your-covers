@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container blog-form">
   <div class="row">
     <%= form_for :article, url: articles_path, :html => {:class => "col s12"} do |f| %>
       <% if @article.errors.any? %>
@@ -13,14 +13,14 @@
       <% end %>
       <div class="row">
         <div class="col s12">
-          <%= f.label :title %>
+          <%= f.label :title, class:"new-blog-label" %>
           <%= f.text_area :title, :class => "tinymce", :rows => 40, :cols => 120 %>
           <%= tinymce %>
         </div>
       </div>
       <div class="row">
         <div class="col s12">
-          <%= f.label :body %>
+          <%= f.label :body, class:"new-blog-label" %>
           <%= f.text_area :body, :class => "tinymce", :rows => 40, :cols => 120 %>
           <%= tinymce %>
         </div>
