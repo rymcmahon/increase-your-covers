@@ -2,7 +2,9 @@
   <div class="row">
     <div class="col s12 m10">
       <h3><%= @article.title %></h3>
-      <p><%= @article.body %></p>
+      <div class="froala-view">
+        <%= simple_format(@article.body) %>
+      </div>
     </div>
   </div>
 </div>
