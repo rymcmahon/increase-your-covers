@@ -19,22 +19,20 @@
     <header>
       <nav>
         <div class="nav-wrapper" id="navbar-spacing">
-          <a href="#!" class="brand-logo brand-name"><i class="material-icons logo">track_changes</i>CoverCentric</a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <a href="/" class="brand-logo brand-name"><i class="material-icons logo">track_changes</i>CoverCentric</a>
+          <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><%= link_to "Home", root_path, class: "nav-links" %></li>
             <li><%= link_to "Pricing", pricing_path, class: "nav-links" %></li>
-            <li><a href="collapsible.html" class="nav-links">Contact</a></li>
-            <li><a href="mobile.html" class="nav-links">Blog</a></li>
+            <li><%= link_to "Blog", {controller: "articles", action: "index"}, class:"nav-links" %></li>
             <% if user_signed_in? %>
               <li><%= link_to('Log Out', destroy_user_session_path, :method => :delete) %></li>
             <% end %>
           </ul>
-          <ul class="side-nav" id="mobile-demo">
-            <li><a href="sass.html">Home</a></li>
-            <li><a href="badges.html">Services</a></li>
-            <li><a href="collapsible.html">Contact</a></li>
-            <li><a href="mobile.html">Blog</a></li>
+          <ul class="side-nav" id="mobile-nav">
+            <li><%= link_to "Home", root_path, class: "nav-links" %></li>
+            <li><%= link_to "Pricing", pricing_path, class: "nav-links" %></li>
+            <li><%= link_to "Blog", {controller: "articles", action: "index"}, class:"nav-links" %></li>
             <% if user_signed_in? %>
               <li><%= link_to('Log Out', destroy_user_session_path, :method => :delete) %></li>
             <% end %>
@@ -61,12 +59,6 @@
         </div>
       </div>
       <div class="footer-copyright center">
-        <ul>
-          <li class="footer-links"><a class="grey-text text-lighten-3" href="#!">Home</a></li>
-          <li class="footer-links"><a class="grey-text text-lighten-3" href="#!">Pricing</a></li>
-          <li class="footer-links"><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
-          <li class="footer-links"><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
-        </ul>
       </div>
     </footer>
     <!-- Drip -->
