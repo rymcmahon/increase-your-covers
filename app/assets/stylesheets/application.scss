@@ -149,11 +149,6 @@ main {
   text-decoration: underline;
 }
 
-.offer-icon {
-  font-size: 1.5rem !important;
-  width: 30px;
-}
-
 .check-list {
   display: inline-flex;
   vertical-align: middle;
@@ -273,6 +268,21 @@ footer .fa {
   color: #FF5252 !important;
   text-align: center;
   font-weight: 700;
+}
+
+.offer-icon {
+  font-size: 1.5rem !important;
+  width: 30px;
+}
+
+.not-included-icon {
+  color: #bdbdbd !important;
+  font-size: 1.5rem !important;
+  width: 30px;
+}
+
+.not-included {
+  color: #bdbdbd;
 }
 
 //****** Blog Styles ******//
