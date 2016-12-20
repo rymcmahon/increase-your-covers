@@ -2,7 +2,7 @@ class PagesController < ApplicationController
   def home
   end
 
-  def pricing
+  def website_critic
 
   end
 end
