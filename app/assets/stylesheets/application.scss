@@ -149,11 +149,6 @@ main {
   text-decoration: underline;
 }
 
-.offer-icon {
-  font-size: 1.5rem !important;
-  width: 30px;
-}
-
 .check-list {
   display: inline-flex;
   vertical-align: middle;
@@ -250,14 +245,52 @@ footer .fa {
   margin: 5px 0;
 }
 
-
-//****** Pricing Styles ******//
-
 .card-content li {
   font-size: 14px;
 }
 
+#pricing-header {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
 
+.package-title {
+  font-weight: 700 !important;
+  font-size: 28px !important;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.package-price {
+  color: #FF5252 !important;
+  text-align: center;
+  font-weight: 700;
+}
+
+.offer-icon {
+  font-size: 1.5rem !important;
+  width: 30px;
+}
+
+.not-included-icon {
+  color: #bdbdbd !important;
+  font-size: 1.5rem !important;
+  width: 30px;
+}
+
+.not-included {
+  color: #bdbdbd;
+}
+
+//****** Website Critic ******//
+
+#website-critic-container {
+  margin-top: 50px;
+}
+
+#critic-free {
+  color: #FF5252;
+}
 //****** Blog Styles ******//
 
 .destroy-btn {
