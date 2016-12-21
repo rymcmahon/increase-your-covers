@@ -1,4 +1,6 @@
 class AssessmentRequestsController < ApplicationController
+  invisible_captcha only: [:create], honeypot: :subtitle
+
   def new
     @assessment_request = AssessmentRequest.new
   end

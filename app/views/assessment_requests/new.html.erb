@@ -26,6 +26,7 @@
             <%= f.text_field :email, id: "email", type: "email", class: "validate" %>
           </div>
         </div>
+        <%= f.invisible_captcha :subtitle %>
         <div class="row">
           <div class="input-field col s12">
             <%= f.label :url, "Website Address", class: "active" %>
