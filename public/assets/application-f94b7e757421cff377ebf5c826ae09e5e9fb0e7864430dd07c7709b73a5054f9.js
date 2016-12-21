@@ -68190,6 +68190,10 @@ expose(["tinymce/geom/Rect","tinymce/util/Promise","tinymce/util/Delay","tinymce
 
 }).call(this);
 (function() {
+
+
+}).call(this);
+(function() {
   var slice = [].slice;
 
   this.ActionCable = {

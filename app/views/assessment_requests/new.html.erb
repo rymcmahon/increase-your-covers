@@ -1,0 +1,39 @@
+<div class="container body-copy" id="website-critic-container">
+  <div class="row">
+    <h4 class="body-headlines center">Want to know how your website stacks up? <br /> The Website Critic will review your website for <strong id="critic-free">FREE!</strong></h4>
+    <p class="body-copy">The Website Critic will analyze your website’s marketing, speed, ease of use, and mobile friendlines and email you the report. He will highlight areas you can focus on to ensure your website is a tool that drives business to your restaurant.</p >
+    <%= form_for :assessment_request, url: assessment_requests_path, :html => {:class => "col s12"} do |f| %>
+      <div class="material-form col s12 m8 l6 offset-m2 offset-l3">
+        <% if @assessment_request.errors.any? %>
+          <div id="error_explanation">
+            <h4><%= pluralize(@assessment_request.errors.count, "error") %> prohibited this website review request from being saved:</h4>
+            <ul>
+              <% @assessment_request.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+              <% end %>
+            </ul>
+          </div>
+        <% end %>
+        <div class="row">
+          <div class="input-field col s12">
+            <%= f.label :first_name, class: "active" %>
+            <%= f.text_field :first_name, class: "validate" %>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <%= f.label :email, class: "active" %>
+            <%= f.text_field :email, id: "email", type: "email", class: "validate" %>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <%= f.label :url, "Website Address", class: "active" %>
+            <%= f.text_field :url, class: "validate" %>
+          </div>
+        </div>
+        <%= f.submit "Review My Site", class:"btn waves-effect waves-light analyze-btn col s12" %>
+      </div>
+    <% end %>
+  </div>
+</div>
