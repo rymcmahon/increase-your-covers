@@ -22,9 +22,9 @@
     <% end %>
     <header>
       <nav>
-        <div class="nav-wrapper" id="navbar-spacing">
-          <a href="/" class="brand-logo brand-name"><i class="material-icons logo">track_changes</i>CoverCentric</a>
-          <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo brand-name"><i class="material-icons logo">track_changes</i>CoverCentric</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><%= link_to "Home", root_path, class: "nav-links" %></li>
             <li><%= link_to "Website Critic", {controller: "/assessment_requests", action: "new"}, class: "nav-links" %></li>
@@ -33,7 +33,7 @@
               <li><%= link_to('Log Out', destroy_user_session_path, :method => :delete) %></li>
             <% end %>
           </ul>
-          <ul class="side-nav" id="mobile-nav">
+          <ul class="side-nav" id="mobile-demo">
             <li><%= link_to "Home", root_path, class: "nav-links" %></li>
             <li><%= link_to "Website Critic", {controller: "/assessment_requests", action: "new"}, class: "nav-links" %></li>
             <li><%= link_to "Blog", {controller: "/articles", action: "index"}, class:"nav-links" %></li>
