@@ -36,6 +36,7 @@ gem 'materialize-sass'
 gem 'tinymce-rails'
 gem 'devise'
 gem 'invisible_captcha'
+gem "figaro"
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri

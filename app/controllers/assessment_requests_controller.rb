@@ -9,6 +9,7 @@ class AssessmentRequestsController < ApplicationController
     @assessment_request = AssessmentRequest.new(assessment_request_params)
 
     if @assessment_request.save
+      CriticMailer.critic_notification(@assessment_request).deliver_now
       flash[:notice] = "Thanks for requesting a review from the Website Critic! He will email your review shortly."
       redirect_to :root
     else
