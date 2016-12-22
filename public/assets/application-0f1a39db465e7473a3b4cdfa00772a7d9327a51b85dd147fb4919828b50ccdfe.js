@@ -68819,6 +68819,6 @@ expose(["tinymce/geom/Rect","tinymce/util/Promise","tinymce/util/Delay","tinymce
 
 
 
-$(document).ready(function() {
+$(document).on('turbolinks:load', function() {
   $(".button-collapse").sideNav();
 });
