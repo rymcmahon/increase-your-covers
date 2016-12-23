@@ -307,16 +307,13 @@ i.material-icons.logo {
     font-size: 2.25rem;
   }
 
-  footer h6 {
-    font-size: 1.5rem;
-  }
-
   footer .fa {
     font-size: 3rem;
   }
 }
 
 @media only screen and (max-width: 450px) {
+
   .home-hero-text {
     line-height: 45px;
     margin: 0;
@@ -335,11 +332,17 @@ i.material-icons.logo {
 
   .body-copy {
     font-size: 1.25rem;
+    padding: 0 1%;
   }
 
   .services-divider {
     margin-top: 25px;
     margin-bottom: 25px;
+    padding: 0 2%;
+  }
+
+  .package-title {
+    font-size: 2.5rem;  
   }
 
   #pricing-header {
@@ -353,6 +356,10 @@ i.material-icons.logo {
 
   .offer-icons {
     font-size: 2rem;
+  }
+
+  footer .fa {
+    font-size: 3rem;
   }
 }
 
