@@ -12990,76 +12990,76 @@ main {
   letter-spacing: 1px;
 }
 
-/* line 110, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 109, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .body-headlines {
   font-weight: 500;
 }
 
-/* line 114, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 113, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .body-copy h4 {
   color: #212121;
 }
 
-/* line 118, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 117, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .body-copy p {
   color: #757575;
 }
 
-/* line 122, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 121, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .body-copy .material-icons {
   color: #448AFF;
 }
 
-/* line 127, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 125, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 #home-parallax {
   margin-bottom: 50px;
 }
 
-/* line 135, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 132, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .objections-questions {
   font-weight: 700;
 }
 
-/* line 144, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 136, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 #email-quote {
   font-weight: 700;
 }
 
-/* line 148, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 140, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .link-accent {
   color: #536DFE;
   text-decoration: underline;
 }
 
-/* line 153, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 145, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .check-list {
   display: inline-flex;
   vertical-align: middle;
   margin: 5px 0;
 }
 
-/* line 159, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 151, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .buy-btn {
   background-color: #FF5252;
 }
 
-/* line 163, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 155, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .buy-btn:hover {
   background-color: #ff8585;
 }
 
-/* line 167, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 159, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .analyze-btn {
   background-color: #FF5252;
   text-transform: none;
 }
 
-/* line 172, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 164, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .analyze-btn:hover {
   background-color: #ff8585;
 }
 
-/* line 176, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 168, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .material-form {
   background-color: #fff;
   padding: 20px !important;
@@ -13068,17 +13068,17 @@ main {
   margin-top: 30px;
 }
 
-/* line 184, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 176, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 i.material-icons.logo {
   margin-right: 0 !important;
 }
 
-/* line 193, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 180, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .brand-name {
   font-family: 'Source Code Pro', monospace;
 }
 
-/* line 197, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 184, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .services-divider {
   background-color: #009688;
   height: 170px;
@@ -13086,141 +13086,141 @@ i.material-icons.logo {
   margin-bottom: 50px;
 }
 
-/* line 204, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 191, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .services-divider h4 {
   color: #fff;
 }
 
 @media only screen and (min-width: 992px) {
-  /* line 209, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 196, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .nav-wrapper {
     padding: 0 15px;
   }
 
-  /* line 213, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 200, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .brand-name {
     font-size: 2.5rem !important;
   }
 
-  /* line 217, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 204, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   i.material-icons.logo {
     font-size: 2.5rem;
   }
 
-  /* line 221, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 208, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   a.nav-links {
     font-size: 1.2rem;
   }
 }
 @media only screen and (min-width: 801px) {
-  /* line 228, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 215, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .home-hero-text {
     padding: 0px 53px;
   }
 
-  /* line 232, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 219, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .body-copy {
     font-size: 1.3rem;
   }
 
-  /* line 236, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 223, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .services-divider {
     padding-left: 10%;
     padding-right: 10%;
   }
 
-  /* line 241, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 228, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   #pricing-header {
     margin-top: 25px !important;
     margin-bottom: 25px !important;
   }
 
-  /* line 246, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 233, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .service-icons {
     font-size: 4rem !important;
   }
 
-  /* line 250, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 237, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .services-copy {
     font-size: 1.1rem;
   }
 
-  /* line 254, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 241, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .objections-answers {
     font-size: 1.1rem;
   }
 
-  /* line 258, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 245, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .offer-icons {
     font-size: 2rem;
   }
 
-  /* line 262, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 249, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .package-title {
     font-size: 2rem;
   }
 
-  /* line 266, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 253, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .card-content li {
     font-size: 1rem;
   }
 
-  /* line 270, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 257, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   footer .fa {
     font-size: 2rem;
   }
 }
 @media only screen and (min-width: 451px) and (max-width: 800px) {
-  /* line 276, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 264, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .home-hero-text {
     line-height: 45px;
     padding: 0 12px;
     font-size: 2.6rem;
   }
 
-  /* line 282, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 270, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .body-headlines {
     font-size: 2.05rem;
   }
 
-  /* line 286, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 274, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .body-copy {
     font-size: 1.25rem;
   }
 
-  /* line 290, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 278, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .services-divider {
     padding: 0 57px;
   }
 
-  /* line 294, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 282, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   #pricing-header {
     margin-top: 25px !important;
     margin-bottom: 25px !important;
   }
 
-  /* line 299, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 287, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .service-icons {
     font-size: 4rem !important;
   }
 
-  /* line 303, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 291, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .offer-icons {
     font-size: 2rem;
   }
 
-  /* line 307, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 295, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .package-title {
     font-size: 2.25rem;
   }
 
-  /* line 311, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 299, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   footer .fa {
     font-size: 3rem;
   }
 }
 @media only screen and (max-width: 450px) {
-  /* line 318, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 306, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .home-hero-text {
     line-height: 45px;
     margin: 0;
@@ -13228,174 +13228,174 @@ i.material-icons.logo {
     font-size: 2.25rem;
   }
 
-  /* line 325, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 313, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   #home-parallax {
     margin-bottom: 25px;
   }
 
-  /* line 329, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 317, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .body-headlines {
     font-size: 1.75rem;
     line-height: 121%;
   }
 
-  /* line 334, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 322, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .body-copy {
     font-size: 1.25rem;
     padding: 0 1%;
   }
 
-  /* line 339, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 327, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .services-divider {
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 0 2%;
   }
 
-  /* line 345, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 333, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .package-title {
     font-size: 2.5rem;
   }
 
-  /* line 349, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 337, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   #pricing-header {
     margin-top: 25px !important;
     margin-bottom: 25px !important;
   }
 
-  /* line 354, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 342, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .service-icons {
     font-size: 4rem !important;
   }
 
-  /* line 358, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 346, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   .offer-icons {
     font-size: 2rem;
   }
 
-  /* line 362, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+  /* line 350, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
   footer .fa {
     font-size: 3rem;
   }
 }
-/* line 367, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 355, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 footer .fa {
   color: #fff;
   padding: 0 6px;
 }
 
-/* line 373, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 360, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .footer-links {
   display: inline;
   padding: 0 2em;
 }
 
-/* line 379, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 365, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 #footer-social-icons {
   margin-top: 5px;
 }
 
-/* line 383, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 369, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .social-links {
   display: inline;
   padding: 0 1em;
 }
 
-/* line 389, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 374, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .page-footer h4, h6 {
   margin: 0;
 }
 
-/* line 393, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 378, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .page-footer ul {
   margin: 5px 0;
 }
 
-/* line 401, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 382, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 #pricing-header {
   margin-top: 60px;
   margin-bottom: 40px;
 }
 
-/* line 406, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 387, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .package-title {
   font-weight: 700 !important;
   text-align: center;
   margin-top: 10px;
 }
 
-/* line 413, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 393, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .package-price {
   color: #FF5252 !important;
   text-align: center;
   font-weight: 700;
 }
 
-/* line 419, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 399, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .offer-icon {
   width: 30px;
 }
 
-/* line 424, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 403, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .not-included-icon {
   color: #bdbdbd !important;
   width: 30px;
 }
 
-/* line 430, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 408, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .not-included {
   color: #bdbdbd;
 }
 
-/* line 436, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 414, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 #website-critic-container {
   margin-top: 50px;
 }
 
-/* line 440, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 418, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 #critic-free {
   color: #FF5252;
 }
 
-/* line 445, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 423, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .destroy-btn {
   background-color: #FF5252;
 }
 
-/* line 449, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 427, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .destroy-btn:hover {
   background-color: #ff8585;
 }
 
-/* line 453, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 431, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .destroy-article-btn {
   padding: 0 0.75rem;
 }
 
-/* line 457, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 435, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .new-blog-label {
   color: #000;
   font-weight: 700;
   text-transform: uppercase;
 }
 
-/* line 464, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 441, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .blog-form {
   margin-top: 50px;
 }
 
-/* line 468, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 445, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .happy-button {
   background-color: #448AFF;
 }
 
-/* line 472, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 449, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .happy-button:hover {
   background-color: #7af;
 }
 
 /****** Devise ******/
-/* line 477, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 454, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .devise-links {
   margin-top: 20px;
 }
