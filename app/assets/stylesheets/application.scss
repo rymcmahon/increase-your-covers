@@ -193,11 +193,6 @@ i.material-icons.logo {
   font-family: 'Source Code Pro', monospace;
 }
 
-nav .brand-logo {
-  // font-size: 2.5rem;
-  padding: 3px;
-}
-
 .services-divider {
   background-color: #009688;
   height: 170px;
@@ -210,11 +205,25 @@ nav .brand-logo {
 }
 
 @media only screen and (min-width: 992px) {
-  .body-copy {
-    // font-size: 20px;
+  .nav-wrapper {
+    padding: 0 15px;
+  }
+
+  .brand-name {
+    font-size: 2.5rem !important;
+  }
+
+  i.material-icons.logo {
+    font-size: 2.5rem;
+  }
+
+  a.nav-links {
+    font-size: 1.2rem;
   }
 }
+
 @media only screen and (min-width: 801px) {
+
   .home-hero-text {
     padding: 0px 53px;
   }
@@ -224,8 +233,8 @@ nav .brand-logo {
   }
 
   .services-divider {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   #pricing-header {
