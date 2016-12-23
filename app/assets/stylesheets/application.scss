@@ -101,7 +101,6 @@ main {
 }
 
 .nav-links {
-  // font-size: 1.15rem;
   padding: 0 20px;
   letter-spacing: 1px;
 }
@@ -119,7 +118,6 @@ main {
 }
 
 .body-copy .material-icons {
-  // font-size: 5rem;
   color: #448AFF;
 }
 
@@ -128,16 +126,10 @@ main {
 }
 
 .services-copy {
-  // font-size: 16px;
 }
 
 .objections-questions {
   font-weight: 700;
-  // font-size: 17px;
-}
-
-.objections-answers {
-  // font-size: 16px;
 }
 
 #email-quote {
@@ -181,12 +173,7 @@ main {
 }
 
 i.material-icons.logo {
-  // font-size: 3rem;
   margin-right: 0 !important;
-}
-
-.test-icon {
-  // font-size: 2rem !important;
 }
 
 .brand-name {
@@ -272,6 +259,7 @@ i.material-icons.logo {
 }
 
 @media only screen and (min-width: 451px) and (max-width: 800px) {
+
   .home-hero-text {
     line-height: 45px;
     padding: 0 12px;
@@ -342,7 +330,7 @@ i.material-icons.logo {
   }
 
   .package-title {
-    font-size: 2.5rem;  
+    font-size: 2.5rem;
   }
 
   #pricing-header {
@@ -365,13 +353,11 @@ i.material-icons.logo {
 
 footer .fa {
   color: #fff;
-  // font-size: 30px;
   padding: 0 6px;
 }
 
 .footer-links {
   display: inline;
-  // font-size: 14px;
   padding: 0 2em;
 }
 
@@ -381,7 +367,6 @@ footer .fa {
 
 .social-links {
   display: inline;
-  // font-size: 14px;
   padding: 0 1em;
 }
 
@@ -393,10 +378,6 @@ footer .fa {
   margin: 5px 0;
 }
 
-.card-content li {
-  // font-size: 14px;
-}
-
 #pricing-header {
   margin-top: 60px;
   margin-bottom: 40px;
@@ -404,7 +385,6 @@ footer .fa {
 
 .package-title {
   font-weight: 700 !important;
-  // font-size: 28px !important;
   text-align: center;
   margin-top: 10px;
 }
@@ -416,13 +396,11 @@ footer .fa {
 }
 
 .offer-icon {
-  // font-size: 1.5rem !important;
   width: 30px;
 }
 
 .not-included-icon {
   color: #bdbdbd !important;
-  // font-size: 1.5rem !important;
   width: 30px;
 }
 
@@ -455,7 +433,6 @@ footer .fa {
 
 .new-blog-label {
   color: #000;
-  // font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
 }
