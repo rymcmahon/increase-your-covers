@@ -101,7 +101,6 @@ main {
 }
 
 .nav-links {
-  // font-size: 1.15rem;
   padding: 0 20px;
   letter-spacing: 1px;
 }
@@ -119,7 +118,6 @@ main {
 }
 
 .body-copy .material-icons {
-  // font-size: 5rem;
   color: #448AFF;
 }
 
@@ -127,17 +125,8 @@ main {
   margin-bottom: 50px;
 }
 
-.services-copy {
-  // font-size: 16px;
-}
-
 .objections-questions {
   font-weight: 700;
-  // font-size: 17px;
-}
-
-.objections-answers {
-  // font-size: 16px;
 }
 
 #email-quote {
@@ -181,21 +170,11 @@ main {
 }
 
 i.material-icons.logo {
-  // font-size: 3rem;
   margin-right: 0 !important;
-}
-
-.test-icon {
-  // font-size: 2rem !important;
 }
 
 .brand-name {
   font-family: 'Source Code Pro', monospace;
-}
-
-nav .brand-logo {
-  // font-size: 2.5rem;
-  padding: 3px;
 }
 
 .services-divider {
@@ -210,11 +189,25 @@ nav .brand-logo {
 }
 
 @media only screen and (min-width: 992px) {
-  .body-copy {
-    // font-size: 20px;
+  .nav-wrapper {
+    padding: 0 15px;
+  }
+
+  .brand-name {
+    font-size: 2.5rem !important;
+  }
+
+  i.material-icons.logo {
+    font-size: 2.5rem;
+  }
+
+  a.nav-links {
+    font-size: 1.2rem;
   }
 }
+
 @media only screen and (min-width: 801px) {
+
   .home-hero-text {
     padding: 0px 53px;
   }
@@ -224,8 +217,8 @@ nav .brand-logo {
   }
 
   .services-divider {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   #pricing-header {
@@ -263,6 +256,7 @@ nav .brand-logo {
 }
 
 @media only screen and (min-width: 451px) and (max-width: 800px) {
+
   .home-hero-text {
     line-height: 45px;
     padding: 0 12px;
@@ -298,16 +292,13 @@ nav .brand-logo {
     font-size: 2.25rem;
   }
 
-  footer h6 {
-    font-size: 1.5rem;
-  }
-
   footer .fa {
     font-size: 3rem;
   }
 }
 
 @media only screen and (max-width: 450px) {
+
   .home-hero-text {
     line-height: 45px;
     margin: 0;
@@ -326,11 +317,17 @@ nav .brand-logo {
 
   .body-copy {
     font-size: 1.25rem;
+    padding: 0 1%;
   }
 
   .services-divider {
     margin-top: 25px;
     margin-bottom: 25px;
+    padding: 0 2%;
+  }
+
+  .package-title {
+    font-size: 2.5rem;
   }
 
   #pricing-header {
@@ -345,17 +342,19 @@ nav .brand-logo {
   .offer-icons {
     font-size: 2rem;
   }
+
+  footer .fa {
+    font-size: 3rem;
+  }
 }
 
 footer .fa {
   color: #fff;
-  // font-size: 30px;
   padding: 0 6px;
 }
 
 .footer-links {
   display: inline;
-  // font-size: 14px;
   padding: 0 2em;
 }
 
@@ -365,7 +364,6 @@ footer .fa {
 
 .social-links {
   display: inline;
-  // font-size: 14px;
   padding: 0 1em;
 }
 
@@ -377,10 +375,6 @@ footer .fa {
   margin: 5px 0;
 }
 
-.card-content li {
-  // font-size: 14px;
-}
-
 #pricing-header {
   margin-top: 60px;
   margin-bottom: 40px;
@@ -388,7 +382,6 @@ footer .fa {
 
 .package-title {
   font-weight: 700 !important;
-  // font-size: 28px !important;
   text-align: center;
   margin-top: 10px;
 }
@@ -400,13 +393,11 @@ footer .fa {
 }
 
 .offer-icon {
-  // font-size: 1.5rem !important;
   width: 30px;
 }
 
 .not-included-icon {
   color: #bdbdbd !important;
-  // font-size: 1.5rem !important;
   width: 30px;
 }
 
@@ -439,7 +430,6 @@ footer .fa {
 
 .new-blog-label {
   color: #000;
-  // font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
 }
