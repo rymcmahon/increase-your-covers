@@ -214,6 +214,53 @@ nav .brand-logo {
     // font-size: 20px;
   }
 }
+@media only screen and (min-width: 801px) {
+  .home-hero-text {
+    padding: 0px 53px;
+  }
+
+  .body-copy {
+    font-size: 1.3rem;
+  }
+
+  .services-divider {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  #pricing-header {
+    margin-top: 25px !important;
+    margin-bottom: 25px !important;
+  }
+
+  .service-icons {
+    font-size: 4rem !important;
+  }
+
+  .services-copy {
+    font-size: 1.1rem;
+  }
+
+  .objections-answers {
+    font-size: 1.1rem;
+  }
+
+  .offer-icons {
+    font-size: 2rem;
+  }
+
+  .package-title {
+    font-size: 2rem;
+  }
+
+  .card-content li {
+    font-size: 1rem;
+  }
+
+  footer .fa {
+    font-size: 2rem;
+  }
+}
 
 @media only screen and (min-width: 451px) and (max-width: 800px) {
   .home-hero-text {
@@ -254,7 +301,7 @@ nav .brand-logo {
   footer h6 {
     font-size: 1.5rem;
   }
-  
+
   footer .fa {
     font-size: 3rem;
   }
