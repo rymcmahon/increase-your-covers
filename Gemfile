@@ -34,9 +34,14 @@ gem 'jbuilder', '~> 2.5'
 gem 'materialize-sass'
 # tinymce wysiwyg
 gem 'tinymce-rails'
+# Devise for authentication/authorization
 gem 'devise'
+# Prevent form spam with Invisible Captcha
 gem 'invisible_captcha'
+# Figaro for storing config variables
 gem "figaro"
+# Carrierwave for image uploads
+gem 'carrierwave', '>= 1.0.0.rc', '< 2.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
