@@ -144,11 +144,17 @@ main {
   margin: 5px 0;
 }
 
-.buy-btn {
-  background-color: #FF5252;
+div#consultation-btn-wrapper {
+  text-align: center;
+  margin: 60px 0;
 }
 
-.buy-btn:hover {
+#consultation-btn {
+  background-color: #FF5252;
+  font-weight: 700;
+}
+
+#consultation-btn:hover {
   background-color: #ff8585;
 }
 
@@ -204,6 +210,10 @@ i.material-icons.logo {
   a.nav-links {
     font-size: 1.2rem;
   }
+
+  #consultation-btn {
+    width: 50%;
+  }
 }
 
 @media only screen and (min-width: 801px) {
@@ -250,6 +260,10 @@ i.material-icons.logo {
     font-size: 1rem;
   }
 
+  #consultation-btn {
+    width: 50%;
+  }
+
   footer .fa {
     font-size: 2rem;
   }
@@ -290,6 +304,10 @@ i.material-icons.logo {
 
   .package-title {
     font-size: 2.25rem;
+  }
+
+  #consultation-btn {
+    width: 100%;
   }
 
   footer .fa {
@@ -341,6 +359,10 @@ i.material-icons.logo {
 
   .offer-icons {
     font-size: 2rem;
+  }
+
+  #consultation-btn {
+    width: 100%;
   }
 
   footer .fa {
