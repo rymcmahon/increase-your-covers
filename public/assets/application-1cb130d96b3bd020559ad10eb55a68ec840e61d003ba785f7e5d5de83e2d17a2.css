@@ -13421,8 +13421,18 @@ footer .fa {
   background-color: #7af;
 }
 
+/* line 472, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+#blog-show-wrapper {
+  margin-top: 40px;
+}
+
+/* line 476, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+#blog-show-img {
+  max-width: 100%;
+}
+
 /****** Devise ******/
-/* line 473, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
+/* line 481, /Users/ryanmcmahon/Desktop/my_apps/increase-your-covers/app/assets/stylesheets/application.scss */
 .devise-links {
   margin-top: 20px;
 }
