@@ -3,8 +3,8 @@
     <div class="col s12 m10 offset-m1">
       <h2 class="center">Coming soon...</h2>
       <% @articles.each do |article| %>
-        <%= article.title.html_safe %>
-        <%= article.body.truncate(200, separator: ' ').html_safe %>
+        <%= sanitize article.title %>
+        <%= sanitize article.body.truncate(200, separator: ' ') %>
       <% end %>
     </div>
   </div>
