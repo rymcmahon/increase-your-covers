@@ -1,5 +1,6 @@
 <% content_for :head do %>
   <title><%= strip_tags(@article.title) %></title>
+  <meta name="description" content="<%= strip_tags(@article.body.truncate(150, separator: ' ')) %>">
 <% end %>
 <div class="container" id="blog-show-wrapper">
   <div class="row">
