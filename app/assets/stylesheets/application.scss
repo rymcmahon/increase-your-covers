@@ -83,11 +83,17 @@ main {
   )
 }
 
-.home-hero-text {
+.home-hero-problem {
   text-align: center;
   color: #fff;
   font-weight: 700;
   line-height: 65px;
+}
+
+.home-hero-solution {
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
 }
 
 .center-text {
@@ -228,8 +234,12 @@ i.material-icons.logo {
 
 @media only screen and (min-width: 801px) {
 
-  .home-hero-text {
-    padding: 0px 53px;
+  .home-hero-problem {
+    padding: 0px 130px;
+  }
+
+  .home-hero-solution {
+    padding: 0px 150px;
   }
 
   .body-copy {
@@ -281,7 +291,7 @@ i.material-icons.logo {
 
 @media only screen and (min-width: 451px) and (max-width: 800px) {
 
-  .home-hero-text {
+  .home-hero-problem {
     line-height: 45px;
     padding: 0 12px;
     font-size: 2.6rem;
@@ -327,7 +337,7 @@ i.material-icons.logo {
 
 @media only screen and (max-width: 450px) {
 
-  .home-hero-text {
+  .home-hero-problem {
     line-height: 45px;
     margin: 0;
     padding: 5px;
