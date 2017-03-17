@@ -145,6 +145,15 @@ main {
   font-weight: 700;
 }
 
+.profile-pic {
+  border: 1px solid #d9d4dc;
+  border-radius: 50%;
+  float: left;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+  margin-right: 20px;
+}
+
 #email-quote {
   font-weight: 700;
 }
