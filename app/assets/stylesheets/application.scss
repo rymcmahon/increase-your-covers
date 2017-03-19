@@ -165,19 +165,10 @@ main {
 }
 
 .iframe-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-}
-
-.iframe-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
 }
 
 #email-quote {
@@ -281,6 +272,14 @@ i.material-icons.logo {
     font-size: 1.3rem;
   }
 
+  .iframe-container iframe {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+  }
+
   .services-divider {
     padding-left: 10%;
     padding-right: 10%;
@@ -307,12 +306,16 @@ i.material-icons.logo {
     font-size: 2rem;
   }
 
+  .fee-strikethrough {
+    text-decoration: line-through;
+  }
+
   .package-title {
     font-size: 2rem;
   }
 
   .card-content li {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   #consultation-btn {
@@ -324,6 +327,15 @@ i.material-icons.logo {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .iframe-container iframe {
+    position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+  }
+}
 @media only screen and (min-width: 451px) and (max-width: 800px) {
 
   .home-hero-problem {
@@ -474,7 +486,7 @@ footer .fa {
 }
 
 .not-included-icon {
-  color: #bdbdbd !important;
+  color: #FF5252 !important;
   width: 30px;
 }
 
