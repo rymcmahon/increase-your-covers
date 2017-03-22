@@ -76,11 +76,12 @@ main {
   flex: 1 0 auto;
 }
 
+#main-nav {
+  background-color: #fafafa;
+}
+
 .background-gradient {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  )
+  background: rgba(250, 175, 48, .82);
 }
 
 .home-hero-problem {
@@ -109,6 +110,8 @@ main {
 .nav-links {
   padding: 0 20px;
   letter-spacing: 1px;
+  font-size: 1.2rem;
+  color: #2C5DA5;
 }
 
 .mobile-nav {
@@ -126,7 +129,7 @@ main {
 }
 
 .body-copy h4 {
-  color: #212121;
+  color: #202020;
 }
 
 .body-copy p {
@@ -134,7 +137,7 @@ main {
 }
 
 .body-copy .material-icons {
-  color: #448AFF;
+  color: #2C5DA5;
 }
 
 #home-parallax {
@@ -188,6 +191,7 @@ main {
   display: inline-flex;
   vertical-align: middle;
   margin: 5px 0;
+  color: #202020;
 }
 
 div#consultation-btn-wrapper {
@@ -196,12 +200,12 @@ div#consultation-btn-wrapper {
 }
 
 #consultation-btn {
-  background-color: #FF5252;
+  background-color: #2C5DA5;
   font-weight: 700;
 }
 
 #consultation-btn:hover {
-  background-color: #ff8585;
+  background-color: #6F95CC;
 }
 
 .analyze-btn {
@@ -227,10 +231,14 @@ i.material-icons.logo {
 
 .brand-name {
   font-family: 'Source Code Pro', monospace;
+  color: #2C5DA5 !important;
 }
 
+.footer-brand-name {
+  font-family: 'Source Code Pro', monospace;
+}
 .services-divider {
-  background-color: #009688;
+  background-color: #FAAF30;
   height: 170px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -238,6 +246,10 @@ i.material-icons.logo {
 
 .services-divider h4 {
   color: #fff;
+}
+
+#footer-background {
+  background-color: #FAAF30;
 }
 
 @media only screen and (min-width: 992px) {
@@ -251,10 +263,6 @@ i.material-icons.logo {
 
   i.material-icons.logo {
     font-size: 2.5rem;
-  }
-
-  a.nav-links {
-    font-size: 1.2rem;
   }
 
   #consultation-btn {
@@ -480,7 +488,7 @@ footer .fa {
 }
 
 .package-price {
-  color: #FF5252 !important;
+  color: #faaf30 !important;
   text-align: center;
   font-weight: 700;
 }
@@ -490,7 +498,7 @@ footer .fa {
 }
 
 .not-included-icon {
-  color: #FF5252 !important;
+  color: #202020 !important;
   width: 30px;
 }
 
