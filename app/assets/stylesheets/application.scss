@@ -76,8 +76,17 @@ main {
   flex: 1 0 auto;
 }
 
+nav {
+  box-shadow: none;
+}
+
 #main-nav {
   background-color: #fafafa;
+}
+
+#wordmark {
+  max-width: 263px;
+  max-height: 66px;
 }
 
 .background-gradient {
@@ -108,15 +117,17 @@ main {
 }
 
 .nav-links {
-  padding: 0 20px;
+  padding: 0;
+  margin: 0 20px;
   letter-spacing: 1px;
   font-size: 1.2rem;
   color: #2C5DA5;
+  height: 50px;
 }
 
 .mobile-nav {
   width: 150px;
-  background-color: #212121;
+  background-color: #202020;
   padding-top: 40px;
 }
 
@@ -229,14 +240,11 @@ i.material-icons.logo {
   margin-right: 0 !important;
 }
 
-.brand-name {
-  font-family: 'Source Code Pro', monospace;
-  color: #2C5DA5 !important;
-}
 
 .footer-brand-name {
   font-family: 'Source Code Pro', monospace;
 }
+
 .services-divider {
   background-color: #FAAF30;
   height: 170px;
@@ -257,8 +265,11 @@ i.material-icons.logo {
     padding: 0 15px;
   }
 
-  .brand-name {
-    font-size: 2.5rem !important;
+  .nav-links:hover {
+    background-color: #fafafa;
+    color: #faaf30;
+    border-bottom: 2px solid #faaf30;
+    border-bottom-width: 2px;
   }
 
   i.material-icons.logo {
@@ -267,6 +278,12 @@ i.material-icons.logo {
 
   #consultation-btn {
     width: 50%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hamburger {
+    color: #202020;
   }
 }
 
@@ -348,6 +365,13 @@ i.material-icons.logo {
 	  height: 100%;
   }
 }
+
+@media only screen and (min-width: 601px) {
+  nav {
+    height: 66px;
+  }
+}
+
 @media only screen and (min-width: 451px) and (max-width: 800px) {
 
   .home-hero-problem {

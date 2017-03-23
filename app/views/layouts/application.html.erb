@@ -21,8 +21,10 @@
     <header>
       <nav id="main-nav">
         <div class="nav-wrapper">
-          <%= link_to image_tag('wordmark-tagline.png'), root_path,  data: { no_turbolink: true } %>
-          <a href="/" data-activates="mobile-demo" class="button-collapse" data-turbolinks="false"><i class="material-icons">menu</i></a>
+          <%= link_to root_path, data: { no_turbolink: true } do %>
+            <%= image_tag "wordmark-logo.png", id:"wordmark" %>
+          <% end %>
+          <a href="/" data-activates="mobile-demo" class="button-collapse" data-turbolinks="false"><i class="material-icons hamburger">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><%= link_to "Home", root_path, class: "nav-links" %></li>
             <li><%= link_to "Services", pages_services_path, class: "nav-links" %></li>
@@ -55,6 +57,8 @@
         <div class="col l4 s12" id="footer-social-icons">
           <ul>
             <li class="social-links"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <li class="social-links"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li class="social-links"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
           </ul>
         </div>
       </div>
