@@ -265,6 +265,10 @@ i.material-icons.logo {
   background: rgba(250, 175, 48, .9);
 }
 
+.services-container {
+  padding: 0 2%;
+}
+
 .service-header {
   color: #2C5DA5;
 }
@@ -540,6 +544,16 @@ footer .fa {
 }
 
 //****** Blog Styles ******//
+
+.blog-background {
+  background-color: #2C5DA5;
+}
+
+.blog-title h2 {
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
 
 .destroy-btn {
   background-color: #FF5252;
