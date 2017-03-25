@@ -1,5 +1,6 @@
 toolbar:
-  - undo redo | image | link
+  - undo redo | image | link | fontselect | fontsizeselect | forecolor backcolor
 plugins:
   - image
   - link
+  - textcolor

@@ -76,18 +76,34 @@ main {
   flex: 1 0 auto;
 }
 
-.background-gradient {
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  )
+nav {
+  box-shadow: none;
 }
 
-.home-hero-text {
+#main-nav {
+  background-color: #fafafa;
+}
+
+#wordmark {
+  max-width: 263px;
+  max-height: 66px;
+}
+
+.home-background-gradient {
+  background: rgba(31, 160, 135, .82);
+}
+
+.hero-problem {
   text-align: center;
   color: #fff;
   font-weight: 700;
   line-height: 65px;
+}
+
+.hero-solution {
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
 }
 
 .center-text {
@@ -101,13 +117,17 @@ main {
 }
 
 .nav-links {
-  padding: 0 20px;
+  padding: 0;
+  margin: 0 20px;
   letter-spacing: 1px;
+  font-size: 1.2rem;
+  color: #2C5DA5;
+  height: 50px;
 }
 
 .mobile-nav {
   width: 150px;
-  background-color: #212121;
+  background-color: #202020;
   padding-top: 40px;
 }
 
@@ -120,7 +140,7 @@ main {
 }
 
 .body-copy h4 {
-  color: #212121;
+  color: #202020;
 }
 
 .body-copy p {
@@ -128,7 +148,7 @@ main {
 }
 
 .body-copy .material-icons {
-  color: #448AFF;
+  color: #2C5DA5;
 }
 
 #home-parallax {
@@ -137,6 +157,36 @@ main {
 
 .objections-questions {
   font-weight: 700;
+}
+
+#copy-intro-row {
+  margin-top: 50px;
+}
+
+.profile-pic {
+  border: 1px solid #d9d4dc;
+  border-radius: 50%;
+  float: left;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+  margin-right: 20px;
+}
+
+.profile-text {
+  font-size: 1.2rem !important;
+  padding-top: 20px;
+}
+
+.emphatic {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.iframe-container {
+  position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
 }
 
 #email-quote {
@@ -152,6 +202,7 @@ main {
   display: inline-flex;
   vertical-align: middle;
   margin: 5px 0;
+  color: #202020;
 }
 
 div#consultation-btn-wrapper {
@@ -160,12 +211,12 @@ div#consultation-btn-wrapper {
 }
 
 #consultation-btn {
-  background-color: #FF5252;
+  background-color: #faaf30;
   font-weight: 700;
 }
 
 #consultation-btn:hover {
-  background-color: #ff8585;
+  background-color: #FFD080;
 }
 
 .analyze-btn {
@@ -189,19 +240,44 @@ i.material-icons.logo {
   margin-right: 0 !important;
 }
 
-.brand-name {
+
+.footer-brand-name {
   font-family: 'Source Code Pro', monospace;
 }
 
-.services-divider {
-  background-color: #009688;
+.home-divider {
+  background-color: #1FA087;
   height: 170px;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 
-.services-divider h4 {
+.home-divider h4 {
   color: #fff;
+}
+
+#footer-background {
+  background-color: #1FA087;
+}
+
+//services styles
+.services-background-gradient {
+  background: rgba(250, 175, 48, .9);
+}
+
+.services-container {
+  padding: 0 2%;
+}
+
+.service-header {
+  color: #2C5DA5;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 1250px) {
+  .services-container {
+    padding: 0 5%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -209,16 +285,15 @@ i.material-icons.logo {
     padding: 0 15px;
   }
 
-  .brand-name {
-    font-size: 2.5rem !important;
+  .nav-links:hover {
+    background-color: #fafafa;
+    color: #1FA087;
+    border-bottom: 2px solid #1FA087;
+    border-bottom-width: 2px;
   }
 
   i.material-icons.logo {
     font-size: 2.5rem;
-  }
-
-  a.nav-links {
-    font-size: 1.2rem;
   }
 
   #consultation-btn {
@@ -226,17 +301,35 @@ i.material-icons.logo {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  .hamburger {
+    color: #202020;
+  }
+}
+
 @media only screen and (min-width: 801px) {
 
-  .home-hero-text {
-    padding: 0px 53px;
+  .hero-problem {
+    padding: 0px 130px;
+  }
+
+  .hero-solution {
+    padding: 0px 150px;
   }
 
   .body-copy {
     font-size: 1.3rem;
   }
 
-  .services-divider {
+  .iframe-container iframe {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+  }
+
+  .home-divider {
     padding-left: 10%;
     padding-right: 10%;
   }
@@ -262,12 +355,16 @@ i.material-icons.logo {
     font-size: 2rem;
   }
 
+  .fee-strikethrough {
+    text-decoration: line-through;
+  }
+
   .package-title {
     font-size: 2rem;
   }
 
   .card-content li {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   #consultation-btn {
@@ -279,12 +376,36 @@ i.material-icons.logo {
   }
 }
 
-@media only screen and (min-width: 451px) and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
+  .iframe-container {
+    margin-bottom: 35px;
+  }
 
-  .home-hero-text {
+  .iframe-container iframe {
+    position: absolute;
+	  top: 0;
+	  left: 0;
+	  width: 100%;
+	  height: 100%;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  nav {
+    height: 66px;
+  }
+}
+
+@media only screen and (min-width: 451px) and (max-width: 800px) {
+  .hero-problem {
     line-height: 45px;
-    padding: 0 12px;
-    font-size: 2.6rem;
+    padding: 0 5%;
+    font-size: 3.2rem;
+  }
+
+  .hero-solution {
+    font-size: 2.9rem;
+    padding: 0 8%;
   }
 
   .body-headlines {
@@ -295,7 +416,7 @@ i.material-icons.logo {
     font-size: 1.25rem;
   }
 
-  .services-divider {
+  .home-divider {
     padding: 0 57px;
   }
 
@@ -326,12 +447,18 @@ i.material-icons.logo {
 }
 
 @media only screen and (max-width: 450px) {
-
-  .home-hero-text {
+  .hero-problem {
     line-height: 45px;
     margin: 0;
     padding: 5px;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
+  }
+
+  .hero-solution {
+    line-height: 40px;
+    margin: 0;
+    padding: 5px;
+    font-size: 2rem;
   }
 
   #home-parallax {
@@ -348,7 +475,7 @@ i.material-icons.logo {
     padding: 0 1%;
   }
 
-  .services-divider {
+  .home-divider {
     margin-top: 25px;
     margin-bottom: 25px;
     padding: 0 2%;
@@ -419,7 +546,7 @@ footer .fa {
 }
 
 .package-price {
-  color: #FF5252 !important;
+  color: #2C5DA5 !important;
   text-align: center;
   font-weight: 700;
 }
@@ -429,7 +556,7 @@ footer .fa {
 }
 
 .not-included-icon {
-  color: #bdbdbd !important;
+  color: #202020 !important;
   width: 30px;
 }
 
@@ -437,16 +564,17 @@ footer .fa {
   color: #bdbdbd;
 }
 
-//****** Website Critic ******//
-
-#website-critic-container {
-  margin-top: 50px;
-}
-
-#critic-free {
-  color: #FF5252;
-}
 //****** Blog Styles ******//
+
+.blog-background {
+  background: rgba(44, 93, 165, .82);
+}
+
+.blog-title h2 {
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
 
 .destroy-btn {
   background-color: #FF5252;
