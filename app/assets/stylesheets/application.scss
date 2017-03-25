@@ -93,14 +93,14 @@ nav {
   background: rgba(31, 160, 135, .82);
 }
 
-.home-hero-problem {
+.hero-problem {
   text-align: center;
   color: #fff;
   font-weight: 700;
   line-height: 65px;
 }
 
-.home-hero-solution {
+.hero-solution {
   text-align: center;
   color: #fff;
   font-weight: 500;
@@ -271,6 +271,13 @@ i.material-icons.logo {
 
 .service-header {
   color: #2C5DA5;
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 1250px) {
+  .services-container {
+    padding: 0 5%;
+  }
 }
 
 @media only screen and (min-width: 992px) {
@@ -302,11 +309,11 @@ i.material-icons.logo {
 
 @media only screen and (min-width: 801px) {
 
-  .home-hero-problem {
+  .hero-problem {
     padding: 0px 130px;
   }
 
-  .home-hero-solution {
+  .hero-solution {
     padding: 0px 150px;
   }
 
@@ -370,6 +377,10 @@ i.material-icons.logo {
 }
 
 @media only screen and (max-width: 800px) {
+  .iframe-container {
+    margin-bottom: 35px;
+  }
+
   .iframe-container iframe {
     position: absolute;
 	  top: 0;
@@ -386,11 +397,15 @@ i.material-icons.logo {
 }
 
 @media only screen and (min-width: 451px) and (max-width: 800px) {
-
-  .home-hero-problem {
+  .hero-problem {
     line-height: 45px;
-    padding: 0 12px;
-    font-size: 2.6rem;
+    padding: 0 5%;
+    font-size: 3.2rem;
+  }
+
+  .hero-solution {
+    font-size: 2.9rem;
+    padding: 0 8%;
   }
 
   .body-headlines {
@@ -432,12 +447,18 @@ i.material-icons.logo {
 }
 
 @media only screen and (max-width: 450px) {
-
-  .home-hero-problem {
+  .hero-problem {
     line-height: 45px;
     margin: 0;
     padding: 5px;
-    font-size: 2.25rem;
+    font-size: 2.5rem;
+  }
+
+  .hero-solution {
+    line-height: 40px;
+    margin: 0;
+    padding: 5px;
+    font-size: 2rem;
   }
 
   #home-parallax {
