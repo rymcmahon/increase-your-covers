@@ -30,7 +30,7 @@
             <li><%= link_to "Services", pages_services_path, class: "nav-links" %></li>
             <li><%= link_to "Blog", {controller: "/articles", action: "index"}, class:"nav-links" %></li>
             <% if user_signed_in? %>
-              <li><%= link_to('Log Out', destroy_user_session_path, :method => :delete) %></li>
+              <li><%= link_to('Log Out', destroy_user_session_path, :method => :delete, class:"nav-links") %></li>
             <% end %>
           </ul>
           <ul class="side-nav mobile-nav" id="mobile-demo">
@@ -38,7 +38,7 @@
             <li><%= link_to "Services", pages_services_path, class: "nav-links" %></li>
             <li><%= link_to "Blog", {controller: "/articles", action: "index"}, class:"nav-links" %></li>
             <% if user_signed_in? %>
-              <li><%= link_to('Log Out', destroy_user_session_path, :method => :delete) %></li>
+              <li><%= link_to('Log Out', destroy_user_session_path, :method => :delete, class:"nav-links") %></li>
             <% end %>
           </ul>
         </div>

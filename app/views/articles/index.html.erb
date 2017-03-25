@@ -1,8 +1,11 @@
 <% content_for :head do %>
   <title>CoverCentric Blog</title>
-  <meta name="description" content="CoverCentric’s blog about how restaurants can use email marketing and website design to acquire new customers and keep them coming back.">
+  <meta name="description" content="CoverCentric’s blog about how restaurants can use technology and web development to ensure they are maximizing profits.">
 <% end %>
 <div class="parallax-container center-text blog-background" id="home-parallax">
+  <div class="parallax">
+    <%= image_tag 'restaurant-bg-image.svg' %>
+  </div>
   <h2 class="hero-problem">The CoverCentric Blog</h2>
   <h3 class="hero-solution">Where Restaurants and Tech Intersect</h3>
 </div>
@@ -17,3 +20,8 @@
     </div>
   </div>
 </div>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.parallax').parallax();
+  });
+</script>
