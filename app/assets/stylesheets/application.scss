@@ -447,6 +447,14 @@ i.material-icons.logo {
 }
 
 @media only screen and (max-width: 450px) {
+  #main-nav {
+    height: 60px;
+  }
+
+  .blog-title-hero h2 {
+    font-size: 2.78rem !important;
+  }
+
   .hero-problem {
     line-height: 45px;
     margin: 0;
@@ -466,12 +474,12 @@ i.material-icons.logo {
   }
 
   .body-headlines {
-    font-size: 1.75rem;
+    font-size: 1.4rem;
     line-height: 121%;
   }
 
   .body-copy {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     padding: 0 1%;
   }
 
@@ -500,6 +508,10 @@ i.material-icons.logo {
 
   #consultation-btn {
     width: 100%;
+  }
+
+  .blog-text {
+    font-size: 1.15rem;
   }
 
   footer .fa {
@@ -591,6 +603,7 @@ footer .fa {
 .blog-show-title {
   font-size: 4rem;
 }
+
 .read-more {
   background-color: #faaf30;
   font-weight: 700;
