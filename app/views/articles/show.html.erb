@@ -2,8 +2,11 @@
   <title><%= strip_tags(@article.title) %></title>
   <meta name="description" content="<%= strip_tags(@article.body.truncate(150, separator: ' ')) %>">
 <% end %>
-<div class="parallax-container center-text blog-background blog-title" id="home-parallax">
-  <h2 class="home-hero-problem"><%= sanitize @article.title %></h2>
+<div class="parallax-container center-text blog-background blog-title-hero" id="home-parallax">
+  <div class="parallax">
+    <%= image_tag 'restaurant-bg-image.svg' %>
+  </div>
+  <h2><%= sanitize @article.title %></h2>
 </div>
 <div class="container" id="blog-show-wrapper">
   <div class="row">
@@ -13,7 +16,7 @@
   </div>
   <div class="row">
     <div class="col s12 m10 offset-m1">
-      <%= sanitize @article.body %>
+      <span class="blog-text"><%= sanitize @article.body %></span>
     </div>
     <div class="row">
       <div class="col s12 m4 l2 offset-l1">
@@ -24,3 +27,8 @@
     </div>
   </div>
 </div>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+</script>

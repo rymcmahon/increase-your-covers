@@ -10,18 +10,18 @@
   <h3 class="hero-solution">Where Restaurants and Tech Intersect</h3>
 </div>
 <div class="container">
-  <div class="row">
-    <div class="col s12 m10 offset-m1">
-      <h2 class="center">Coming soon...</h2>
-      <% @articles.each do |article| %>
-        <%= sanitize article.title %>
-        <%= sanitize article.body.truncate(200, separator: ' ') %>
-      <% end %>
+      <% @articles.order("created_at desc").each do |article| %>
+      <div class="row">
+        <div class="col s12 m10 offset-m1">
+        <h4 class="blog-title"><%= strip_tags(article.title) %></h4>
+        <p class="blog-text"><%= strip_tags(article.body.truncate(200, separator: ' ')) %></p>
+        <%= link_to "Read more", article_path(article), class:"btn read-more" %>
+      </div>
     </div>
-  </div>
+      <% end %>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){
+  $(document).ready(function(){
     $('.parallax').parallax();
   });
 </script>

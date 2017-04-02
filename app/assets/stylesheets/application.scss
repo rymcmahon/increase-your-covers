@@ -570,10 +570,34 @@ footer .fa {
   background: rgba(44, 93, 165, .82);
 }
 
-.blog-title h2 {
+.blog-title-hero h2 {
   text-align: center;
   color: #fff;
   font-weight: 500;
+  font-size: 4rem;
+}
+
+.blog-title {
+  color: #202020;
+  font-weight: 500;
+  font-size: 2.28rem;
+}
+
+.blog-text {
+  color: #757575;
+  margin-top: 0px;
+}
+
+.blog-show-title {
+  font-size: 4rem;
+}
+.read-more {
+  background-color: #faaf30;
+  font-weight: 700;
+}
+
+.read-more:hover {
+  background-color: #FFD080;
 }
 
 .destroy-btn {
@@ -612,6 +636,12 @@ footer .fa {
 
 #blog-show-img {
   max-width: 100%;
+}
+
+@media only screen and (min-width: 801px) {
+  .blog-text {
+    font-size: 1.3rem;
+  }
 }
 
 /****** Devise ******/
